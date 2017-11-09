@@ -1,4 +1,4 @@
-CCS PCM C Compiler, Version 5.025, 5967               29-Sep-17 00:49
+CCS PCM C Compiler, Version 5.025, 5967               09-Nov-17 15:59
 
                Filename:   C:\Users\Dung Phan\Documents\Matrix 4x4\main.lst
 
@@ -3117,7 +3117,7 @@ CCS PCM C Compiler, Version 5.025, 5967               29-Sep-17 00:49
 0324:  MOVLW  2F
 0325:  MOVWF  30
 .................... //-------------------------------------------- 
-.................... void dieuKhienCot(char tencot, int1 trangthai) 
+.................... void dieuKhienCot(char tencot, int trangthai) 
 .................... { 
 ....................    switch(tencot) 
 *

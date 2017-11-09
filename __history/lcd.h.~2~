@@ -1,6 +1,6 @@
 #define _lcd_h_
 #include <math.h>
-#use delay(clock=2000000)
+#use delay(clock=20000000)
 void lcd_init(void);             // Ham dung de khoi dong C.LCD.
 byte lcd_read_byte(void);         // Ham xu ly doc thong tin (dang 8 bit) tu thong tin dang 4 bit tu C.LCD.
 byte lcd_read_nibble(void);         // Ham doc thong tin (dang 4 bit / nibble) tu C.LCD.

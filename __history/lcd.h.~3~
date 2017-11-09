@@ -11,21 +11,21 @@ char lcd_getc(byte x, byte y);      // Ham tra ve ky tu tai vi tri (x,y) tren C.
 void lcd_putc(char c);            // Ham se hien thi ky tu c tai vi tri ke tiep tren C.LCD.
 // Khai bao bien.
 // Dinh nghia cac thong so.
-//!#define LCD_RS_PIN         PIN_D1   // Cac ket noi C.LCD voi vi dieu khien.
-//!#define LCD_RW_PIN         PIN_D2
-//!#define LCD_ENABLE_PIN     PIN_D3
-//!#define LCD_DATA4          PIN_D4
-//!#define LCD_DATA5          PIN_D5
-//!#define LCD_DATA6          PIN_D6
-//!#define LCD_DATA7          PIN_D7 
-
 #define LCD_RS_PIN         PIN_C0   // Cac ket noi C.LCD voi vi dieu khien.
 #define LCD_RW_PIN         PIN_C1
 #define LCD_ENABLE_PIN     PIN_C2
 #define LCD_DATA4          PIN_C3
 #define LCD_DATA5          PIN_C4
 #define LCD_DATA6          PIN_C5
-#define LCD_DATA7          PIN_C6
+#define LCD_DATA7          PIN_C6 
+
+//!#define LCD_RS_PIN         PIN_E1   // Cac ket noi C.LCD voi vi dieu khien.
+//!#define LCD_RW_PIN         PIN_E2
+//!#define LCD_ENABLE_PIN     PIN_E0
+//!#define LCD_DATA4          PIN_C4
+//!#define LCD_DATA5          PIN_C5
+//!#define LCD_DATA6          PIN_C6
+//!#define LCD_DATA7          PIN_C7
 
 /*
 #define LCD_RS_PIN         PIN_D1   // Cac ket noi C.LCD voi vi dieu khien.
